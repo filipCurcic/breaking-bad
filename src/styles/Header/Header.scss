@@ -1,0 +1,18 @@
+.header__menu {
+  margin-bottom: 40px;
+  .header__buttonContainer {
+    justify-content: space-evenly;
+    width: 50%;
+  }
+  .header__navLink {
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    &:hover {
+      text-decoration: underline;
+      color: rgb(185, 185, 185);
+      transition: 0.3s;
+    }
+  }
+}

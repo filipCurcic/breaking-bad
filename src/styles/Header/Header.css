@@ -1,0 +1,25 @@
+.header__menu {
+  margin-bottom: 40px;
+}
+
+.header__menu .header__buttonContainer {
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 50%;
+}
+
+.header__menu .header__navLink {
+  font-size: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+}
+
+.header__menu .header__navLink:hover {
+  text-decoration: underline;
+  color: #b9b9b9;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+/*# sourceMappingURL=Header.css.map */

@@ -1,0 +1,63 @@
+.characterScreen__container {
+  border: 0.1px solid rgba(245, 245, 245, 0.192);
+  border-radius: 10px;
+}
+
+.characterScreen__container .characterScreen__imageContainer {
+  width: 30%;
+  padding: 15px;
+}
+
+.characterScreen__container .characterScreen__imageContainer img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.characterScreen__container .characterScreen__infoContainer {
+  width: 70%;
+  padding: 15px 30px;
+}
+
+.characterScreen__container .characterScreen__infoContainer .characterScreen__name {
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+.characterScreen__container .characterScreen__infoContainer .characterScreen__history {
+  color: #adadad;
+}
+
+.characterScreen__container .characterScreen__infoContainer .characterScreen__history:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.characterScreen__container .characterScreen__infoContainer .characterScreen__info {
+  margin-bottom: 20px;
+}
+
+.characterScreen__container .characterScreen__infoContainer .characterScreen__info .characterScreen__infoContent {
+  font-family: 'Roboto', sans-serif;
+  color: #e0e0e0;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.characterScreen__container .characterScreen__infoContainer .characterScreen__info .characterScreen__infoContent .characterScreen__infoArray {
+  cursor: pointer;
+}
+
+.characterScreen__container .characterScreen__infoContainer .characterScreen__info .characterScreen__infoContent .characterScreen__infoArray:hover {
+  text-decoration: underline;
+}
+
+.characterScreen__container .characterScreen__infoContainer .characterScreen__info .characterScreen__divider {
+  margin-top: 5px;
+  display: block;
+  width: 100%;
+  border-bottom: 0.1px solid rgba(245, 245, 245, 0.192);
+}
+/*# sourceMappingURL=CharacterScreen.css.map */
