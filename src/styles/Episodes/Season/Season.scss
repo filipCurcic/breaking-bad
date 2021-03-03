@@ -1,0 +1,13 @@
+.season__container {
+  width: 20%;
+  background-color: beige;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  color: black;
+  padding: 10px;
+  .season__divider {
+    border-bottom: 1px solid black;
+    margin-top: 5px;
+    width: 90%;
+  }
+}

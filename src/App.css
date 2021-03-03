@@ -89,6 +89,12 @@ header img {
   align-items: center;
   justify-content: center;
 }
+.center__align {
+  align-items: center;
+}
+.center__justify {
+  justify-content: center;
+}
 
 .search {
   height: 100px;

@@ -2,7 +2,7 @@ import './App.css';
 import React, { useState, useEffect } from 'react';
 
 //Libraries
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 //Components
 import Header from './components/ui/Header';

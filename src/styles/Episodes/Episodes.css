@@ -1,0 +1,18 @@
+.episodes__seasonsContainer {
+  background-color: aquamarine;
+  width: 1000px;
+  height: 500px;
+  margin: 0 auto;
+  border-radius: 15px;
+}
+
+.episode {
+  font-size: 15;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+/*# sourceMappingURL=Episodes.css.map */
